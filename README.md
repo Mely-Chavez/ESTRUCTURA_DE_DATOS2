@@ -42,20 +42,20 @@ MAESTRO: EDUARDO FLORES.
 <ol>
 
 <li>Algoritmo:</li>
-<li>Conjunto ordenado de operaciones sistemáticas que permite hacer un cálculo y hallar la solución de un tipo de problemas.</li>
+Conjunto ordenado de operaciones sistemáticas que permite hacer un cálculo y hallar la solución de un tipo de problemas.
 <li>Estructura de datos:</li>
-<li>En el ámbito de la informática, las estructuras de datos son aquellas que nos permiten, como desarrolladores, organizar la información de manera eficiente, y en definitiva diseñar la solución correcta para un determinado problema.</li>
+En el ámbito de la informática, las estructuras de datos son aquellas que nos permiten, como desarrolladores, organizar la información de manera eficiente, y en definitiva diseñar la solución correcta para un determinado problema.
 <li>Datos:</li>
-<li>Es la entrada sin procesar de la cual se produce la información. Información se refiere a los datos que han sido procesados y comunicados de tal manera que pueden ser entendidos e interpretados por el receptor.</li>
+Es la entrada sin procesar de la cual se produce la información. Información se refiere a los datos que han sido procesados y comunicados de tal manera que pueden ser entendidos e interpretados por el receptor.
 <li>Información:</li>
-<li>Es un mensaje, normalmente bajo la forma de un documento o algún tipo de comunicación audible o visible. Como cualquier mensaje, tiene un emisor y un receptor.</li>
+Es un mensaje, normalmente bajo la forma de un documento o algún tipo de comunicación audible o visible. Como cualquier mensaje, tiene un emisor y un receptor.
 <li>Metadatos:</li>
-<li>La definición más concreta de los metadatos es qué son “datos acerca de los datos” y sirven para suministrar información sobre los datos producidos. Los metadatos consisten en información que caracteriza datos, describen el contenido, calidad, condiciones, historia, disponibilidad y otras características de los datos.</li>
+La definición más concreta de los metadatos es qué son “datos acerca de los datos” y sirven para suministrar información sobre los datos producidos. Los metadatos consisten en información que caracteriza datos, describen el contenido, calidad, condiciones, historia, disponibilidad y otras características de los datos.
 <li>BigData:</li>
-<li>El big data (datos masivos) es el término que describe un gran volumen de datos, el cual crece de manera exponencial con el paso del tiempo. </li>
+El big data (datos masivos) es el término que describe un gran volumen de datos, el cual crece de manera exponencial con el paso del tiempo. 
 <li>Ciencia de datos:</li>
-<li>La ciencia de datos es un campo multidisciplinario que utiliza métodos, procesos y sistemas científicos para extraer conocimientos a partir de los datos de maneras diversas.</li>
+La ciencia de datos es un campo multidisciplinario que utiliza métodos, procesos y sistemas científicos para extraer conocimientos a partir de los datos de maneras diversas.
 <li>Bases de datos:</li>
-<li>Una base de datos es una herramienta para recopilar y organizar información.</li>
+Una base de datos es una herramienta para recopilar y organizar información.
 
 </ol>
