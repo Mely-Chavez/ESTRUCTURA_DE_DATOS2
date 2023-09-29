@@ -57,5 +57,12 @@ El big data (datos masivos) es el término que describe un gran volumen de datos
 La ciencia de datos es un campo multidisciplinario que utiliza métodos, procesos y sistemas científicos para extraer conocimientos a partir de los datos de maneras diversas.
 <li>Bases de datos:</li>
 Una base de datos es una herramienta para recopilar y organizar información.
-
+<li>Estrctura de datos lineales:</li>
+Son aquellas en las que los elementos ocupan lugares sucesivos en la estructura y cada uno de ellos tiene un único sucesor y un único predecesor, es decir, sus elementos están ubicados uno al lado del otro relacionados en forma lineal.
+<li>Estrctura de datos no lineales:</li>
+Son aquellas en las que cada elemento puede estar enlazado a cualquier otro componente.
+<li>Estrctura de datos dinamica:</li>
+Es aquella en la que el tamaño ocupado en memoria puede modificarse durante la ejecución del programa.
+<li>Estrctura de datos estatica:</li>
+Son aquellas en las que el tamaño ocupado en la memoria se define antes de que el programa se ejecute y no puede ser modificado durante la ejecución del programa.
 </ol>
