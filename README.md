@@ -66,3 +66,32 @@ Es aquella en la que el tamaño ocupado en memoria puede modificarse durante la 
 <li>Estrctura de datos estatica:</li>
 Son aquellas en las que el tamaño ocupado en la memoria se define antes de que el programa se ejecute y no puede ser modificado durante la ejecución del programa.
 </ol>
+
+# UNIDAD 2 "CONCEPTOS"
+<ol>
+<li> Listas: </li>
+Las listas, como otras estructuras en programación, también nos permiten almacenar múltiples datos. 
+<li> Diccionarios: </li>
+Un diccionario es una estructura de datos que nos permite guardar parejas de claves y valores.
+<li> Diferencia entre listas y diccionarios: </li>
+Los diccionarios te servirán de manera similar a las listas, pero con la diferencia de que podrás almacenar valores con llaves, lo que hará más eficiente guardar valores porque no se ocupará tanta memoria como la ocupa una lista siendo útiles para cuando necesites optimizar.
+<li> Pilas: </li>
+Una pila se define formalmente como una colección de datos a los cuales se puede acceder mediante un extremo, que se conoce generalmente como tope.
+<li> Pilas estáticas: </li>
+Una pila estática en algoritmos y estructuras de datos es una implementación de una pila utilizando un arreglo de tamaño fijo.
+<li> Pilas dinámicas: </li>
+Una estructura de datos dinámica es aquella en la que el tamaño ocupado en memoria puede modificarse durante la ejecución del programa. 
+<li> Colas: </li>
+Una cola es una estructura de datos que almacena elementos en una lista y permite acceder a los datos por uno de los dos extremos de la lista.
+<li> Colas estáticas y dinámicas: </li>
+- COLAS ESTATICAS: Se considera que tendrá un tamaño definido y no podrá superar dicha capacidad para el almacenamiento de más información, solo la indicada.
+
+-COLAS DINAMICAS: 
+Una cola es una estructura dinámica que agrupa elementos como si fuera una cola, por ejemplo una fila de personas.
+<li> Lenguaje R: </li>
+Los comandos o instrucciones son ejecutados directamente sin ningún tipo de software externo o compilación de datos de lenguaje máquina.
+<li> Lenguaje Python: </li>
+Es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML).
+<li> Lenguaje Javascript: </li>
+JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. 
+</ol>
