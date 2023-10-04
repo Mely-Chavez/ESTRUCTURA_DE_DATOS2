@@ -1,0 +1,1 @@
+itic3 = ["Melany Marlen Chavez Ortiz", "Nakamoto Yuta", "Vanessa Chavez", "Fernanda Pantoja", "Emmanuel de jesus Esparza" ]
