@@ -95,3 +95,19 @@ Es un lenguaje de programación ampliamente utilizado en las aplicaciones web, e
 <li> Lenguaje Javascript: </li>
 JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. 
 </ol>
+
+# Unidad 3: Estructuras no lineales 
+<li>Recursividad:</li> 
+Podemos decir que la recursividad en programación Java es la capacidad que existe en este lenguaje de crear funciones que llamen a otras funciones. 
+<li>Arboles:</li> 
+Los árboles son estructuras no lineales al contrario a estructuras lineales como lo son los arreglos y las listas.
+<li>Grafos: </li>
+Los grafos son estructuras de datos, es decir, tipos de datos abstractos, comúnmente los grafos son utilizados para el modelado de problemas.
+
+# Unidad 4: Métodos de ordenamiento y búsqueda
+ <li>Metodos de ordenamiento:</li> 
+ Un método de ordenación es un algoritmo que permuta los datos de una estructura en una secuencia determinada.
+ <li>Métodos de búsqueda:</li> 
+ Es el conjunto de procedimientos y operaciones que un usuario realiza con el fin de obtener la información que necesita.
+ <li>Recuperación de datos:</li>
+ En informática, la recuperación de datos es el conjunto de técnicas y procedimientos utilizados para acceder y extraer la información almacenada en medios de almacenamiento digital que por daño o avería no pueden ser accesibles de manera usual
