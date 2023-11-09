@@ -1,0 +1,9 @@
+Algoritmo Calculadora
+	Numero = 0
+	Suma = 0
+	Numero = Numero+1
+	Suma = Numero + Suma
+	Si Numero=10 Entonces
+		
+	FinSi
+FinAlgoritmo
