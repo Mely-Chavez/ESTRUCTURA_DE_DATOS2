@@ -1,33 +1,21 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-<body class="bg-info">
-
-  <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
+  <head><script src="../assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
-    <title>Heroes · Bootstrap v5.3</title>
+    <title>Product example · Bootstrap v5.3</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/heroes/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
 
     
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
-<link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet" >
-
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#712cf9">
-
+<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -83,7 +71,7 @@
       }
 
       .btn-bd-primary {
-        --bd-violet-bg: #2d0f6b;
+        --bd-violet-bg: #712cf9;
         --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
         --bs-btn-font-weight: 600;
@@ -110,7 +98,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="micss.css" rel="stylesheet">
+    <link href="product.css" rel="stylesheet">
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -163,64 +151,89 @@
         </li>
       </ul>
     </div>
- 
-    <!-- DESDE AQUÍ PUEDEN EDITAR EL CÓDIGO -->
-    <h1 class="text-center"><B> >> GRAFOS << </B>
-      <p></p>
-      <p></p>
-      <p></p>
-        <main class="px-10" mt="10">
-          <h1>¿Que es un grafo?</h1>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p class="lead">
-            Los grafos son estructuras de datos, es decir, tipos de datos abstractos, comúnmente los grafos son utilizados para el modelado de problemas. 
-            Un grafo es un conjunto no vacıo de objetos o entes fısicos que tienen relación entre ellos.
-          </p>
 
-          <p>
-            <main class="px-10">
-              <h1>Componentes:</h1>
-            </main>
-          </p>
-          <p></p>
-          <p class="lead">
-            Se compone principalmente de:
+    
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="aperture" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10"/>
+    <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/>
+  </symbol>
+  <symbol id="cart" viewBox="0 0 16 16">
+    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </symbol>
+  <symbol id="chevron-right" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+  </symbol>
+</svg>
 
-
-<b>Aristas.</b>
-
-
-Son las líneas con las que se unen las aristas de un grafo y con la que se construyen también caminos. Si la arista carece de dirección se denota indistintamente {a, b} o {b, a}, siendo a y b los vértices que une. Si {a ,b} es una arista, a los vértices a y b se les llama sus extremos.
-
-<u>Estas a su vez pueden ser:</u>
-Aristas Adyacentes: Se dice que dos aristas son adyacentes si convergen en el mismo vértice. 
-Aristas Paralelas: Se dice que dos aristas son paralelas si vértice inicial y el final son el mismo. 
-Aristas Cíclicas: Arista que parte de un vértice para entrar en el mismo. 
-Cruce: Son dos aristas que cruzan en un punto. 
-
-<b>Vértices.</b>
-Son los puntos o nodos con los que esta conformado un grafo. Llamaremos grado de un vértice al número de aristas de las que es extremo. Se dice que un vértice es `par' o `impar' según lo sea su grado. 
-<u>Estos a su vez pueden ser: </u>
-Vértices Adyacentes: Si tenemos un par de vértices de un grafo (U, V) y si tenemos un arista que los une, entonces U y V son vértices adyacentes y se dice que U es el vértice inicial y V el vértice adyacente. 
-Vértice Aislado: Es un vértice de grado cero. 
-Vértice Terminal: Es un vértice de grado 1. 
-          </p>
-
-          <img src="grafo.png" alt="grafo" class="carIco">
-          <p class="lead">
-          <p>
-            <a href="MENU.html" class="btn btn-lg btn-light fw-bold border-white bg-white">REGRESAR</a>
-          </p>
-        </p>
-        </main>
-      
-        <footer class="mt-50 text-dark-50">
-          <p class="h6">Para saber mas en <a href="https://conjuntos-y-relaciones.blogspot.com/2017/11/51-elementos-caracteristicas-y_20.html" class="text-white">Todo sobre grafos </a>, con <a href="https://www.youtube.com/watch?v=HIqQ0PfuPo8&ab_channel=Eminem-Topic" class="text-white">@Mely</a>.</p>
-        </footer>
+<nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand d-md-none" href="#">
+      <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg>
+      Aperture
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="#offcanvas" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="#offcanvasLabel">Aperture</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      
-          </body>
-      </html>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav flex-grow-1 justify-content-between">
+          <li class="nav-item"><a class="nav-link" href="#">
+            <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg>
+          </a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tour</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Enterprise</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">
+            <svg class="bi" width="24" height="24"><use xlink:href="#cart"/></svg>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="position-relative overflow-hidden p-8 p-md-9 m-md-8 text-center bg-body-tertiary">
+    <div class="col-md-5 p-lg-3 mx-auto my-3">
+      <h1 class="display-3 fw-bold">Metodos de busqueda</h1>
+      <h3 class="fw-normal text-muted mb-3">La búsqueda es la operación más importante en el procesamiento de información,ya que permite recuperar datos previamente almacenados. La búsqueda se puede aplicar sobre elementos previamente ordenados o sobreelementos desordenados, en el primer caso la búsqueda es más fácil, en cambio en el segundo se dificulta un poco más el proceso, sobre todo cuando se trata deencontrar una cantidad de elementos similares.
+      </h3>
+      <div class="d-flex gap-3 justify-content-center lead fw-normal">
+        <a class="icon-link" href="index.html">
+          REGRESAR
+          <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h1 class="display-5 fw-bold">Tipos de metodos de busqueda</h1>
+        <img src="./bus.png" alt=""width="80%" height="225">
+        <h2 class="display-5"><b>Métodos de búsqueda interna</b></h2>
+        <p class="lead">Se denomina búsqueda interna cuando todos los elementos se encuentran en lamemoria principal. Por ejemplo, almacenados en estructuras estáticas (arreglos) oen estructuras dinámicas (listas ligadas y arboles).El propósito principal de un ordenamiento es el de facilitar las búsquedas de losmiembros del conjunto ordenado</p>
+      </div>
+    </div>
+    <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <img src="./bus2.png" alt=""width="100%" height="225">
+        <h2 class="display-5"><b>Métodos de búsqueda externa</b></h2>
+        <p class="lead">Se denomina búsqueda externa cuando todos los elementos se encuentran enmemoria secundaria (archivos almacenados en dispositivos tales como cintas ydiscos magnéticos).La búsqueda externa es aquella en  la que todos los  elementos se encuentranalmacenados   en   un   archivo,   el   cual   se   encuentra   en   un   dispositivo   dealmacenamiento secundario como un disco duro, una cinta o una memoria USB</p>
+      </div>
+    </div>
+  </div>
+</main>
+    </body>
+</html>

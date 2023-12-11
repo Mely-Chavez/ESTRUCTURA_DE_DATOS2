@@ -1,33 +1,21 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-<body class="bg-info">
-
-  <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
+  <head><script src="../assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
-    <title>Heroes · Bootstrap v5.3</title>
+    <title>Carousel Template · Bootstrap v5.3</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/heroes/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
 
     
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
-<link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet" >
-
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#712cf9">
-
+<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -83,7 +71,7 @@
       }
 
       .btn-bd-primary {
-        --bd-violet-bg: #2d0f6b;
+        --bd-violet-bg: #712cf9;
         --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
         --bs-btn-font-weight: 600;
@@ -110,7 +98,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="micss.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -163,64 +151,121 @@
         </li>
       </ul>
     </div>
- 
-    <!-- DESDE AQUÍ PUEDEN EDITAR EL CÓDIGO -->
-    <h1 class="text-center"><B> >> GRAFOS << </B>
-      <p></p>
-      <p></p>
-      <p></p>
-        <main class="px-10" mt="10">
-          <h1>¿Que es un grafo?</h1>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p class="lead">
-            Los grafos son estructuras de datos, es decir, tipos de datos abstractos, comúnmente los grafos son utilizados para el modelado de problemas. 
-            Un grafo es un conjunto no vacıo de objetos o entes fısicos que tienen relación entre ellos.
-          </p>
 
-          <p>
-            <main class="px-10">
-              <h1>Componentes:</h1>
-            </main>
-          </p>
-          <p></p>
-          <p class="lead">
-            Se compone principalmente de:
-
-
-<b>Aristas.</b>
-
-
-Son las líneas con las que se unen las aristas de un grafo y con la que se construyen también caminos. Si la arista carece de dirección se denota indistintamente {a, b} o {b, a}, siendo a y b los vértices que une. Si {a ,b} es una arista, a los vértices a y b se les llama sus extremos.
-
-<u>Estas a su vez pueden ser:</u>
-Aristas Adyacentes: Se dice que dos aristas son adyacentes si convergen en el mismo vértice. 
-Aristas Paralelas: Se dice que dos aristas son paralelas si vértice inicial y el final son el mismo. 
-Aristas Cíclicas: Arista que parte de un vértice para entrar en el mismo. 
-Cruce: Son dos aristas que cruzan en un punto. 
-
-<b>Vértices.</b>
-Son los puntos o nodos con los que esta conformado un grafo. Llamaremos grado de un vértice al número de aristas de las que es extremo. Se dice que un vértice es `par' o `impar' según lo sea su grado. 
-<u>Estos a su vez pueden ser: </u>
-Vértices Adyacentes: Si tenemos un par de vértices de un grafo (U, V) y si tenemos un arista que los une, entonces U y V son vértices adyacentes y se dice que U es el vértice inicial y V el vértice adyacente. 
-Vértice Aislado: Es un vértice de grado cero. 
-Vértice Terminal: Es un vértice de grado 1. 
-          </p>
-
-          <img src="grafo.png" alt="grafo" class="carIco">
-          <p class="lead">
-          <p>
-            <a href="MENU.html" class="btn btn-lg btn-light fw-bold border-white bg-white">REGRESAR</a>
-          </p>
-        </p>
-        </main>
-      
-        <footer class="mt-50 text-dark-50">
-          <p class="h6">Para saber mas en <a href="https://conjuntos-y-relaciones.blogspot.com/2017/11/51-elementos-caracteristicas-y_20.html" class="text-white">Todo sobre grafos </a>, con <a href="https://www.youtube.com/watch?v=HIqQ0PfuPo8&ab_channel=Eminem-Topic" class="text-white">@Mely</a>.</p>
-        </footer>
+    
+<header data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ITPA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">REGRESAR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"> MELANY MARLEN CHAVEZ ORTIZ</a>
+          </li>
+        </ul>
       </div>
-      <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      
-          </body>
-      </html>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1> </h1>
+            <h1></h1>
+            <h1></h1>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">¿Que es un grafo?</h2>
+        <p class="lead">En programación, un grafo es una estructura de datos no lineal que consiste en un conjunto de nodos y arcos. Los nodos representan los elementos o entidades, mientras que los arcos representan las relaciones o conexiones entre los elementos.Un grafo se puede representar de varias maneras, pero la más común es mediante una matriz de adyacencia o una lista de adyacencia. Una matriz de adyacencia es una matriz cuadrada que indica si existe un arco entre dos nodos específicos, mientras que una lista de adyacencia es una lista que contiene todos los nodos adyacentes a un nodo específico.
+        </p>
+      </div>
+        <div class="col-md-4">
+          <img src="grafo.png" alt="" width="100%" height="100%">
+        </div>
+      </div>
+  
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Donde son utilizados:</h2>
+        <p class="lead">Los grafos son utilizados dentro de diversos campos como la ingenier´ıa el´ectrica, qu´ımica, ingenier´ıa
+          industrial, compiladores, sistemas operativos, organizaci´on y recuperaci´on de la informaci´on entre otras
+          disciplinas. Los grafos son estructuras de datos, es decir, tipos de datos abstractos, com´unmente los
+          grafos son utilizados para el modelado de problemas. Los grafos tienen muchos tipos de aplicaciones, tanto de mapas como aplicaciones matemáticas, como resolver problemas sobre búsqueda de caminos con el menor costo, por ejemplo, la ruta que usará el taxi para llevar a una persona a su destino</p>
+      </div>
+      <div class="col-md-4">
+        <img src="donde.png" alt="" width="100%" height="100%">
+      </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1"> Tipos de grafos:</h2>
+        <p class="lead"> 
+          <p>Existen varios tipos de grafos:</p>
+        <p>- Grafo dirigido: los arcos tienen una dirección específica.</p>
+      <p>- Grafo no dirigido: los arcos no tienen dirección específica.</p>
+    <p>- Grafo ponderado: los arcos tienen un valor o peso asociado.</p>
+  <p>- Grafo no ponderado: los arcos no tienen peso asociado.</p>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <img src="tipo.png" alt="" width="100%" height="100%">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2023 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

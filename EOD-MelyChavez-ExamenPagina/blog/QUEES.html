@@ -1,33 +1,21 @@
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
-<body class="bg-info">
-
-  <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head><script src="../assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
-    <title>Heroes · Bootstrap v5.3</title>
+    <title>Cover Template · Bootstrap v5.3</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/heroes/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
 
     
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
-<link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet" >
-
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#712cf9">
-
+<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -83,7 +71,7 @@
       }
 
       .btn-bd-primary {
-        --bd-violet-bg: #2d0f6b;
+        --bd-violet-bg: #712cf9;
         --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
         --bs-btn-font-weight: 600;
@@ -110,9 +98,9 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="micss.css" rel="stylesheet">
+    <link href="cover.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="d-flex h-100 text-center text-bg-dark">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -163,64 +151,38 @@
         </li>
       </ul>
     </div>
- 
-    <!-- DESDE AQUÍ PUEDEN EDITAR EL CÓDIGO -->
-    <h1 class="text-center"><B> >> GRAFOS << </B>
-      <p></p>
-      <p></p>
-      <p></p>
-        <main class="px-10" mt="10">
-          <h1>¿Que es un grafo?</h1>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p class="lead">
-            Los grafos son estructuras de datos, es decir, tipos de datos abstractos, comúnmente los grafos son utilizados para el modelado de problemas. 
-            Un grafo es un conjunto no vacıo de objetos o entes fısicos que tienen relación entre ellos.
-          </p>
 
-          <p>
-            <main class="px-10">
-              <h1>Componentes:</h1>
-            </main>
-          </p>
-          <p></p>
-          <p class="lead">
-            Se compone principalmente de:
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">Toca saber sobre...</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="index.html">REGRESAR</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-
-<b>Aristas.</b>
-
-
-Son las líneas con las que se unen las aristas de un grafo y con la que se construyen también caminos. Si la arista carece de dirección se denota indistintamente {a, b} o {b, a}, siendo a y b los vértices que une. Si {a ,b} es una arista, a los vértices a y b se les llama sus extremos.
-
-<u>Estas a su vez pueden ser:</u>
-Aristas Adyacentes: Se dice que dos aristas son adyacentes si convergen en el mismo vértice. 
-Aristas Paralelas: Se dice que dos aristas son paralelas si vértice inicial y el final son el mismo. 
-Aristas Cíclicas: Arista que parte de un vértice para entrar en el mismo. 
-Cruce: Son dos aristas que cruzan en un punto. 
-
-<b>Vértices.</b>
-Son los puntos o nodos con los que esta conformado un grafo. Llamaremos grado de un vértice al número de aristas de las que es extremo. Se dice que un vértice es `par' o `impar' según lo sea su grado. 
-<u>Estos a su vez pueden ser: </u>
-Vértices Adyacentes: Si tenemos un par de vértices de un grafo (U, V) y si tenemos un arista que los une, entonces U y V son vértices adyacentes y se dice que U es el vértice inicial y V el vértice adyacente. 
-Vértice Aislado: Es un vértice de grado cero. 
-Vértice Terminal: Es un vértice de grado 1. 
-          </p>
-
-          <img src="grafo.png" alt="grafo" class="carIco">
-          <p class="lead">
-          <p>
-            <a href="MENU.html" class="btn btn-lg btn-light fw-bold border-white bg-white">REGRESAR</a>
-          </p>
+  <main class="px-10">
+    <h1>¿Que es la fibra optica?</h1>
+    <p class="lead">Como ya adelantamos, la fibra óptica se trata de un medio de transmisión de datos mediante impulsos fotoeléctricos a través de un hilo construido en vidrio transparente u otros materiales plásticos con la misma funcionalidad. Estos hilos pueden llegar a ser casi tan finos como un pelo, y son precisamente el medio de transmisión de la señal</p>
+    <p class="lead">
+      <main class="px-8">
+        <h2>Ventajas:</h2>
+        <p class="lead">
+          <p>Estas ventajas permiten hacer la transición hacia ciudades, empresas y hogares totalmente digitalizados, creando un modo de vida más sostenible y circular.</p>
         </p>
-        </main>
-      
-        <footer class="mt-50 text-dark-50">
-          <p class="h6">Para saber mas en <a href="https://conjuntos-y-relaciones.blogspot.com/2017/11/51-elementos-caracteristicas-y_20.html" class="text-white">Todo sobre grafos </a>, con <a href="https://www.youtube.com/watch?v=HIqQ0PfuPo8&ab_channel=Eminem-Topic" class="text-white">@Mely</a>.</p>
-        </footer>
-      </div>
-      <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      
-          </body>
-      </html>
+        <main class="px-8">
+          <h2>Desventajas:</h2>
+          <p class="lead">
+            <p>- Son frágiles. Ya que el vidrio en su interior es susceptible de romperse.</p>
+             <p>- Requiere de conversores, son difíciles los empalmes, no transmite energía eléctrica, envejece ante la presencia de agua y no existen memorias ópticas</p>
+            </p>
+  </main>
+</div>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
